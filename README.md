@@ -58,5 +58,14 @@ Create a DataFrame called size_summary that breaks down school performance based
 # Scores by School Type
 Use the per_school_summary DataFrame from the previous step to create a new DataFrame called type_summary.This new DataFrame should show school performance based on the "School Type".
 
-# Report
+# Data Analysis Report
+From the collected data we can conclude that higher spending (per student), doesn't result in higher test scores.  It can also be concluded that  small (<1000) schools have better overall passing then large (2000-5000) schools. Summariing all the above points, we can conclude that the most effective school with average costs is Griffin Hight school. 
+
+
+<img width="544" alt="Grif" src="https://github.com/EvgeniiaKei/pandas-challenge/assets/166274251/e415d5ac-18dd-4fd2-9bb8-d0dae683e375">
+
+
+Trends:
+1. Independent Schools are better placed to achieve higher passing grades on average.(please check the data (type_summary.mean())
+2. The results of scores by School Spending and the scores by School Size, the top performing schools have some of the lowest number of total students. Smaller schools with smaller per student budgets perform better in comparison with bigger schools with greater per student budgets.
 
